@@ -23,15 +23,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "plugins": [
-        [
-          "./plugins/withDisableForcedDarkModeAndroid.js",
-          {}
-        ]
-      ]
+      "package": "com.example.reproColorDarkModeIssue"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "./plugins/withDisableForcedDarkModeAndroid.js"
+    ]
   }
 }
