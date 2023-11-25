@@ -14,3 +14,7 @@ When launching via `npm start` using Expo App on a Redmi phone the following beh
   <img src="./screenshots/dark_mode.jpg" width="300">
 
 Even setting `userInterfaceStyle` to "light" does not make the button gold.
+
+Attempts:
+
+- on `pluginsAttempt` branch: modified `app.json` with a plugin that should disable force dark mode on android as outlined in this answer https://stackoverflow.com/a/74239739. It does not work.
